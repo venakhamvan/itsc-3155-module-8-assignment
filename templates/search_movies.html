@@ -5,5 +5,11 @@
 {% block body %}
 <h1 class="mb-5">Search Movie Ratings</h1>
 <p class="mb-3">Search for a movie rating below</p>
-<!-- TODO: Feature 3 -->
+<form>
+    <div class="form-group">
+        <label for="search">Search by movie title</label>
+        <input type="text" class="form-control" name="search" id="search" placeholder="Enter movie title">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 {% endblock %}
