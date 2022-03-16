@@ -5,5 +5,25 @@
 {% block body %}
 <h1 class="mb-5">All Movies</h1>
 <p class="mb-3">See our list of movie ratings below</p>
-<!-- TODO: Feature 1 -->
+
+<table id = "table" border = "2">
+    <tr>
+      <th>Title</th>
+      <th>Director</th>
+      <th>Rating</th>      
+    </tr>
+    <tr>
+    <td> movie </td> 
+      <td><b>director</b></td> 
+      <td><b>rating</b></td> 
+    </tr>
+  </table>
+
+  <script>
+      var movie = request.form.get('movie_title')
+      var director = request.form.get('director')
+      var rating = request.form.get('rating')
+
+    <script>
+
 {% endblock %}
